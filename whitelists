@@ -1,8 +1,9 @@
-shared.loaddata = {236309920, 459208566, 4236112792, 4280183242}
+shared.loaddata = {"814c23ba8d9148fd550d51d06e742e1a24692508f366a44a7adcfde19bb9c917948a3ee515f8c5911037b5cadc5e3010", "aa9379733ee2d7c11a263d961337ec68f10db2dcc553f910bfbe38c4ef4a082b2e0a06dcdf60c4c094ad1f44078d3dae"}
 shared.Funny = {}
+
 pcall(function()
-    for i,v in pairs(shared.Funny) do
-        if v == game.Players.LocalPlayer.UserId then
+    if syn.crypt.hash(shared.loaddata) == syn.crypt.hash(game.Players.LocalPlayer.UserId) then
+        for i,v in pairs(shared.Funny) do
             setfpscap(15)
         end
     end
