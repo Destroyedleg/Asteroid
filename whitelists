@@ -2,9 +2,9 @@ shared.loaddata = {"814c23ba8d9148fd550d51d06e742e1a24692508f366a44a7adcfde19bb9
 shared.Funny = {}
 
 pcall(function()
-    if syn.crypt.hash(shared.loaddata) == syn.crypt.hash(game.Players.LocalPlayer.UserId) then
+    if shared.loaddata == syn.crypt.hash(game.Players.LocalPlayer.UserId) then
         for i,v in pairs(shared.Funny) do
-            setfpscap(15)
+            print("hi")
         end
     end
 end)
