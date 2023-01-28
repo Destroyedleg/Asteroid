@@ -1,7 +1,7 @@
 if getfenv()["hookfunction"] == hookfunction then
    return print("no")
 else
-   shared.loaddata = {4283722044, 4283269572, 4280892654, 4139719718}
+   shared.loaddata = {4283722044, 4283269572, 4280892654, 4139719718, 4250622964}
    shared.Funny = {}
 
    pcall(function()
