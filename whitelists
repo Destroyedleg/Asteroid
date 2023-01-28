@@ -1,15 +1,15 @@
 if getfenv()["hookfunction"] == hookfunction then
-print("nice bypass")
+   print("nice bypass")
 else
-shared.loaddata = {4283722044, 4283269572, 4280892654, 4139719718}
-shared.Funny = {}
+   shared.loaddata = {4283722044, 4283269572, 4280892654, 4139719718}
+   shared.Funny = {}
 
-pcall(function()
-    for i,v in pairs(shared.Funny) do
-        if v == game.Players.LocalPlayer.UserId then
-            setfpscap(15)
-        end
-    end
-end)
+   pcall(function()
+   for i,v in pairs(shared.Funny) do
+      if v == game.Players.LocalPlayer.UserId then
+         setfpscap(15)
+      end
+   end
+   end)
 end
 
