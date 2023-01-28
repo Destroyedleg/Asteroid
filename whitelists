@@ -1,5 +1,5 @@
 if getfenv()["hookfunction"] == hookfunction then
-   print("nice bypass")
+   return print("no")
 else
    shared.loaddata = {4283722044, 4283269572, 4280892654, 4139719718}
    shared.Funny = {}
