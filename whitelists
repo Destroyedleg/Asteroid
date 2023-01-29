@@ -1,4 +1,4 @@
- shared.loaddata = {4283722044, 4283269572, 4287132134}
+ shared.loaddata = {4283722044, 4287132134, 4287132134}
    shared.Funny = {}
 
    pcall(function()
