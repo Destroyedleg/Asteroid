@@ -474,7 +474,7 @@ ModMenu.CreateMenu = function(Settings)
     JBTextLabel.Position = UDim2.new(0, 10, 0, 0)
     JBTextLabel.Size = UDim2.new(0, 210, 0, 60)
     JBTextLabel.Font = Enum.Font.SourceSansLight
-    JBTextLabel.Text = "jailbreakhaxx"
+    JBTextLabel.Text = "Asteroid V0.1"
     JBTextLabel.TextSize = 48
     JBTextLabel.TextXAlignment = Enum.TextXAlignment.Left
     table.insert(RTextLabels, JBTextLabel)
